@@ -1,0 +1,33 @@
+.github-corner svg {
+    fill: var(--primary-light-color);
+    color: var(--page-background-color);
+    width: 55px;
+    height: 55px;
+}
+
+
+#main-menu > li:last-child, #searchBoxPos2 {
+	margin-right: 60px !important;
+}
+
+.SREntry .SRSymbol {
+	color: #c60000;
+}
+
+.contents img, .contents .center, .contents center {
+	overflow: auto;
+}
+
+#MSearchResults {
+	width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+    .github-corner svg {
+        width: 55px;
+        height: 55px;
+    }
+    #projectnumber {
+        margin-right: 22px;
+    }
+}
